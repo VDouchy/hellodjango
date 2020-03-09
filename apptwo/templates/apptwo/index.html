@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Appwtwo</title>
+    <link rel="stylesheet" href="{% static "apptwo/css/style.css"%}" type="text/css" media="screen">
+</head>
+<body>
+
+{# Title block here #}
+<!-- HTML comment -->
+    <h1>{{ page_title|title }} - {{page_title|length}}</h1>
+
+{% for picture in pictures %}
+    {% with 'apptwo/'|add:picture.filename as filepath%}
+    <div class="picture">
+        <h2>{{ picture.name }}</h2>
+        <img src="{%static filepath %}" />
+    <div>
+    {% endwith%}
+{% endfor %}
+
+<table>
+    <tr style="background-color: {% cycle "#80e27e" "#087f23" as rowcolors %}">
+        <td>Resolution</td>
+        <td>192x1080</td>
+    </tr>
+    <tr style="background-color: {% cycle rowcolors %}">
+        <td>Location</td>
+        <td>Tokyo</td>
+    </tr>
+    <tr style="background-color: {% cycle rowcolors %}">
+        <td>Location</td>
+        <td>Tokyo</td>
+    </tr>  {
+                "name": "Mountain",
+                "filename": "mountain.jpg",
+            },
+</table>
+
+    {{description|safe|striptags}}
+
+    <div>
+        Category : {{ category }} <br>
+        Year : {{ year }} <br>
+        Month : {{ month }} <br>
+        Day : {{ day }} <br>
+
+    </div>
+    <h2>Acces variable detail</h2>
+    <div>
+        filename: {{ picture.filename }} <br>
+        All categories :
+        {% for category in picture.categories %}
+            {{category}}
+        {% endfor %}
+
+        all categories with filter : {{picture.categories|join:','}}
+
+    </div>
+
+{% if day == 10%}
+<h3> Special day !</h3>
+{% elif day == 30 %}
+<h3>Publish at the end of the month</h3>
+{% else%}
+<h4>Nothing fancy</h4>
+{%endif %}
+
+
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85ff3123-1b06-4d70-83f9-0af8de1c65af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apptwo/static/apptwo/building.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apptwo/static/apptwo/duck.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apptwo/static/apptwo/mountain.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appthree/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appthree/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appthree/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appthree/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appthree/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appthree/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appthree/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apptwo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apptwo/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellodjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hellodjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellodjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hellodjango/urls.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1YLvuclF3cGyxMmrGNigtThM2Bw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/apptwo/static/apptwo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apptwo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apptwo/static/apptwo" />
+      <recent name="$PROJECT_DIR$/apptwo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85ff3123-1b06-4d70-83f9-0af8de1c65af" name="Default Changelist" comment="" />
+      <created>1582734912754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582734912754</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
